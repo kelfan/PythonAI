@@ -27,6 +27,7 @@ from keras.layers import Dense
 from keras.layers import LSTM
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
+import json
 
 # fix random seed for reproducibility
 numpy.random.seed(7)
@@ -79,6 +80,13 @@ model.add(LSTM(4, input_shape=(1, look_back)))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
 model.fit(trainX, trainY, epochs=100, batch_size=1, verbose=2)
+
+# save the model 
+model.save('timeSeriesIndexPredction.h5')
+# save the model as json file 
+json_string = model.to_json()
+with open('timeSeriesIndexModel.json', 'w') as f:
+    json.dump(json_string, f)
 
 # make predictions
 trainPredict = model.predict(trainX)
