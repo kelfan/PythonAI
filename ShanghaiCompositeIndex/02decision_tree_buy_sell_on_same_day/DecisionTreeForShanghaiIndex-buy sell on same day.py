@@ -81,11 +81,3 @@ for i in range(0,predictions.size-1):
         tmp = dt.test_x[i+1][1] - dt.test_x[i+1][0]
         Result = Result + tmp
         print(Result)
-
-print("------------buy on next day but sell on the day after------")
-Result2 = 0
-for i in range(0,predictions.size-1):
-    if("yes".__eq__(predictions.item(i))):
-        tmp = dt.test_x[i+2][0] - dt.test_x[i+1][0]
-        Result2 = Result2 + tmp
-        print(Result2)
