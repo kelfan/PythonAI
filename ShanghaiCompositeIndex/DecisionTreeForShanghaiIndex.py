@@ -67,6 +67,18 @@ class DecisionTreeFromCsv:
         result = self.model.predict(data)
         return result
 
+    # predictions by different feature
+    def sell_buy_different_day(self,data,sell,buy,days):
+        result = []
+        sum = 0
+        predictions = self.predict(data)
+        for i in range(0, predictions.size - 1):
+            if ("yes".__eq__(predictions.item(i))):
+                tmp = data[i + days][sell] - data[i][buy]
+                sum = sum + tmp
+                result.append(sum)
+        return result
+
 # load and prepare data
 filename = 'shanghaiIndex.csv'
 dt = DecisionTreeFromCsv(filename)
@@ -74,18 +86,5 @@ predictions = dt.predict(dt.test_x)
 print(dt.predict(dt.test_x))
 print(dt.score)
 
-print("-----------trade on the same next day------------")
-Result = 0
-for i in range(0,predictions.size-1):
-    if("yes".__eq__(predictions.item(i))):
-        tmp = dt.test_x[i+1][1] - dt.test_x[i+1][0]
-        Result = Result + tmp
-        print(Result)
-
 print("------------buy on next day but sell on the day after------")
-Result2 = 0
-for i in range(0,predictions.size-1):
-    if("yes".__eq__(predictions.item(i))):
-        tmp = dt.test_x[i+2][0] - dt.test_x[i+1][0]
-        Result2 = Result2 + tmp
-        print(Result2)
+print(dt.sell_buy_different_day(dt.test_x,3,2,1))
