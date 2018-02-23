@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26912fc1-f549-4a25-9bcd-074f9d3cda6f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/TxtAnalysis/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TxtAnalysis/a.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TxtAnalysis/txt_sort.py" />
+    <list default="true" id="26912fc1-f549-4a25-9bcd-074f9d3cda6f" name="Default" comment="text sort">
+      <change beforePath="" afterPath="$PROJECT_DIR$/RL SimplestExample/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RL SimplestExample/dataframe_test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RL SimplestExample/reinforcement_learning_worker.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RL SimplestExample/simplestRL.treasure_on_right.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +16,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="txt_sort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TxtAnalysis/txt_sort.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dataframe_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RL SimplestExample/dataframe_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="297">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simplestRL.treasure_on_right.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RL SimplestExample/simplestRL.treasure_on_right.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#352#370#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reinforcement_learning_worker.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RL SimplestExample/reinforcement_learning_worker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,6 +87,10 @@
         <option value="$PROJECT_DIR$/TxtAnalysis/file_worker.py" />
         <option value="$PROJECT_DIR$/TxtAnalysis/a.txt" />
         <option value="$PROJECT_DIR$/TxtAnalysis/txt_analysis.py" />
+        <option value="$PROJECT_DIR$/RL SimplestExample/simplestRL.treasure_on_right.py" />
+        <option value="$PROJECT_DIR$/RL SimplestExample/dataframe_test.py" />
+        <option value="$PROJECT_DIR$/RL SimplestExample/reinforcement_learning_worker.py" />
+        <option value="$PROJECT_DIR$/RL SimplestExample/RL.apply_to_stock.case.py" />
       </list>
     </option>
   </component>
@@ -102,27 +127,29 @@
             <path>
               <item name="PythonAI" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonAI" type="462c0819:PsiDirectoryNode" />
-              <item name="TxtAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="RL SimplestExample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/FanProject/Python_StockPredict_Project" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\PythonAI\ShanghaiCompositeIndex\05stock_predictions\stock_decision_tree" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\PythonAI\RL SimplestExample" />
       <recent name="E:\workspace\PythonAI" />
       <recent name="E:\workspace\PythonAI\TxtAnalysis" />
       <recent name="E:\workspace\PythonAI\ShanghaiCompositeIndex" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\PythonAI\ShanghaiCompositeIndex\05stock_predictions\stock_decision_tree" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -137,38 +164,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.txt_analysis">
-    <configuration name="class_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.RL.apply_to_stock.case">
+    <configuration name="RL.apply_to_stock.case" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL SimplestExample" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonAI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree/class_generator.py" />
+      <option name="SCRIPT_NAME" value="E:\FanProject\Python_StockPredict_Project\SinlgeScripts\RL.apply_to_stock.case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="decision_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dataframe_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL SimplestExample" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonAI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree/decision_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL SimplestExample/dataframe_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="simplestRL.treasure_on_right" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL SimplestExample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonAI" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL SimplestExample/simplestRL.treasure_on_right.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,24 +232,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonAI" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShanghaiCompositeIndex/stockApi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="stockApi" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ShanghaiCompositeIndex" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonAI" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShanghaiCompositeIndex/stockApi" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,15 +256,18 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.class_generator" />
-      <item index="1" class="java.lang.String" itemvalue="Python.decision_tree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.stockApi" />
-      <item index="3" class="java.lang.String" itemvalue="Python.stockApi (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.txt_analysis" />
+      <item index="0" class="java.lang.String" itemvalue="Python.stockApi (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.txt_analysis" />
+      <item index="2" class="java.lang.String" itemvalue="Python.simplestRL.treasure_on_right" />
+      <item index="3" class="java.lang.String" itemvalue="Python.RL.apply_to_stock.case" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dataframe_test" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.txt_analysis" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.RL.apply_to_stock.case" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dataframe_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.simplestRL.treasure_on_right" />
+        <item index="3" class="java.lang.String" itemvalue="Python.txt_analysis" />
       </list>
     </recent_temporary>
   </component>
@@ -255,6 +285,14 @@
       <option name="presentableId" value="Default" />
       <updated>1513313203181</updated>
     </task>
+    <task id="LOCAL-00001" summary="text sort">
+      <created>1518941058401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518941058401</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -263,17 +301,17 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21472393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -315,6 +353,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="text sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="text sort" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -322,6 +364,21 @@
           <url>file://$PROJECT_DIR$/TxtAnalysis/txt_sort.py</url>
           <line>54</line>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/FanProject/Python_StockPredict_Project/SinlgeScripts/RL.apply_to_stock.case.py</url>
+          <line>228</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RL SimplestExample/simplestRL.treasure_on_right.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/FanProject/Python_StockPredict_Project/SinlgeScripts/RL.apply_to_stock.case.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -331,7 +388,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="70" />
+      <option name="time" value="109" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -349,6 +406,56 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TxtAnalysis/txt_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FanProject/Python_StockPredict_Project/SinlgeScripts/RL.apply_to_stock.case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#97#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RL SimplestExample/simplestRL.treasure_on_right.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="98" column="39" lean-forward="true" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+          <folding>
+            <element signature="e#352#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TxtAnalysis/txt_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RL SimplestExample/simplestRL.treasure_on_right.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2071">
+          <caret line="109" column="103" lean-forward="true" selection-start-line="109" selection-start-column="103" selection-end-line="109" selection-end-column="103" />
+          <folding>
+            <element signature="e#352#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree/stock_data.py" />
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree/file_handler.py" />
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree/data_handler.py" />
@@ -376,32 +483,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/colorama/ansitowin32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="317" column="41" lean-forward="true" selection-start-line="317" selection-start-column="41" selection-end-line="317" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree/decision_tree.py" />
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree/data_handler.py" />
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree/file_handler.py" />
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/05stock_predictions/stock_decision_tree/stock_data.py" />
-    <entry file="file://$PROJECT_DIR$/TxtAnalysis/file_worker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TxtAnalysis/file_worker.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -410,7 +496,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/__init__.py">
+    <entry file="file://$PROJECT_DIR$/util/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/TxtAnalysis/b.txt" />
+    <entry file="file://$PROJECT_DIR$/TxtAnalysis/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125065">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/list_worker.py" />
+    <entry file="file://$PROJECT_DIR$/util/file_worker.py" />
+    <entry file="file://$PROJECT_DIR$/util/Constant.py" />
+    <entry file="file://$PROJECT_DIR$/TxtAnalysis/c.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FanProject/Python_StockPredict_Project/SinlgeScripts/000001.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -418,60 +523,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TxtAnalysis/b.txt">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/colorama/ansitowin32.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3439">
-          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="117">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TxtAnalysis/a.txt">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125065">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="125">
+          <caret line="475" column="0" lean-forward="false" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/list_worker.py">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/series.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/file_worker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="238" column="0" lean-forward="true" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/Constant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TxtAnalysis/c.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="125">
+          <caret line="622" column="0" lean-forward="false" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TxtAnalysis/txt_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="19">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="2523" column="0" lean-forward="false" selection-start-line="2523" selection-start-column="0" selection-end-line="2523" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FanProject/Python_StockPredict_Project/SinlgeScripts/RL.apply_to_stock.case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="193" column="24" lean-forward="false" selection-start-line="193" selection-start-column="24" selection-end-line="193" selection-end-column="24" />
+          <folding>
+            <element signature="e#97#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/FanProject/Python_StockPredict_Project/SinlgeScripts/rl_stock_model.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122569">
+          <caret line="6451" column="12" lean-forward="true" selection-start-line="6451" selection-start-column="12" selection-end-line="6451" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RL SimplestExample/dataframe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RL SimplestExample/reinforcement_learning_worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RL SimplestExample/simplestRL.treasure_on_right.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding>
+            <element signature="e#352#370#0" expanded="true" />
           </folding>
         </state>
       </provider>
