@@ -1,0 +1,24 @@
+cite, 引用, http://www.cnblogs.com/wuyuegb2312/archive/2013/04/09/3008320.html
+simple factory,简单工厂模式,适合根据key寻找需要的操作
+** strategy **,策略模式, 数组里放不同操作, 上层通用,下层不同操作
+decoration, 装饰模式, 一层套一层 外层忘内层输出
+proxy, 代理模式, 装入属性中, 再调用方法
+factory method, 工厂方法模式, 一个工厂对应一个类的生产
+prototype, 原型模式, 多个对象去操作同一个实例
+template, 模板方法, 多个类的操作中有相同的和不同的
+facade, 外观, 把各种类装入同一个类, 然后根据不同情况,不同调用
+** builder**, 建造者, 通过参数来调用方法属性一致的不同类
+Observer, 观察者, 把一个对象装入不同的对象,然后这个对象的更新触发所有的更新
+abstract factory, 抽象工厂, 一个工厂生产一种类
+state mode, 状态模式,不同状态中的切换 -> 把类装入属性, 类转换放入状态类
+Adapter, 适配器, 配置通用的方法
+memento, 备忘录, 把需要还原的信息封装对象暂时存储
+Composite, 组合,可以做树状的输出
+Iterator: 迭代模式, 迭代数组
+Bridge, 桥接模式, 分不同类 可以装入不同的配件
+Command, 命令模式, 动态更改指令执行
+Responsibility Chain, 职责链模式, 不能处理的丢给上层
+Intermediate, 中介者模式, 作为交换机或路由器交互信息
+Flyweight Pattern, 享元模式,共享存取池方便汇集统计计算
+interpreter , 解释器模式, 用不同的对象去解释内容
+Visitor Pattern,访问者模式, 多个对象 一步顺序输出
