@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26912fc1-f549-4a25-9bcd-074f9d3cda6f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LSTM_model/lstm_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LSTM_model/lstm_rnn_toy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSTM_model/lstm_rnn_txt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN workshop1/Simple Convolutional Neural Network for MNIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CNN workshop1/Simple Convolutional Neural Network for MNIST.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,30 +18,40 @@
     <SUITE FILE_PATH="coverage/PythonAI$lstm_rnn_toy.coverage" NAME="lstm_rnn_toy Coverage Results" MODIFIED="1532688811035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM_model" />
     <SUITE FILE_PATH="coverage/PythonAI$1_small_network_example.coverage" NAME="1 small network example Coverage Results" MODIFIED="1532338355252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ANN workshop1" />
     <SUITE FILE_PATH="coverage/PythonAI$lstm_example.coverage" NAME="lstm_example Coverage Results" MODIFIED="1532599549573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM_model" />
+    <SUITE FILE_PATH="coverage/PythonAI$lstm_rnn_txt.coverage" NAME="lstm_rnn_txt Coverage Results" MODIFIED="1532778798835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM_model" />
     <SUITE FILE_PATH="coverage/PythonAI$simplestRL_treasure_on_right.coverage" NAME="simplestRL.treasure_on_right Coverage Results" MODIFIED="1532339999120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL SimplestExample" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lstm_example.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LSTM_model/lstm_example.py">
+      <file leaf-file-name="lstm_rnn_toy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LSTM_model/lstm_rnn_toy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2600">
-              <caret line="205" column="39" selection-start-line="205" selection-start-column="39" selection-end-line="205" selection-end-column="39" />
+            <state relative-caret-position="-945">
+              <caret line="50" column="9" selection-start-line="50" selection-end-line="50" selection-end-column="9" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lstm_rnn_toy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LSTM_model/lstm_rnn_toy.py">
+      <file leaf-file-name="lstm_rnn_txt.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LSTM_model/lstm_rnn_txt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            <state relative-caret-position="221">
+              <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LSTM for txt.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RNN workshop1/LSTM for txt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="710">
+              <caret line="128" column="58" lean-forward="true" selection-start-line="128" selection-start-column="58" selection-end-line="128" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -96,6 +101,7 @@
         <option value="$PROJECT_DIR$/RL SimplestExample/RL.apply_to_stock.case.py" />
         <option value="$PROJECT_DIR$/LSTM_model/lstm_example.py" />
         <option value="$PROJECT_DIR$/LSTM_model/lstm_rnn_toy.py" />
+        <option value="$PROJECT_DIR$/LSTM_model/lstm_rnn_txt.py" />
       </list>
     </option>
   </component>
@@ -109,9 +115,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="698" />
-    <option name="height" value="776" />
+    <option name="x" value="677" />
+    <option name="width" value="634" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -142,18 +148,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/FanProject/Python_Stock_Project_20180604" />
     <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\PythonAI\ShanghaiCompositeIndex\05stock_predictions\stock_decision_tree" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\PythonAI\LSTM_model" />
       <recent name="E:\workspace\PythonAI\RL SimplestExample" />
       <recent name="E:\workspace\PythonAI" />
       <recent name="E:\workspace\PythonAI\TxtAnalysis" />
       <recent name="E:\workspace\PythonAI\ShanghaiCompositeIndex" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\PythonAI\ShanghaiCompositeIndex\05stock_predictions\stock_decision_tree" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,26 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lstm_rnn_toy">
-    <configuration name="2 Forward Propagate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonAI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ANN workshop1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANN workshop1/2 Forward Propagate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.lstm_rnn_txt">
     <configuration name="EvaluateExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,6 +233,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="lstm_rnn_txt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LSTM_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LSTM_model/lstm_rnn_txt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="simplestRL.treasure_on_right" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,19 +272,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.2 Forward Propagate" />
       <item itemvalue="Python.EvaluateExample" />
       <item itemvalue="Python.simplestRL.treasure_on_right" />
       <item itemvalue="Python.lstm_example" />
       <item itemvalue="Python.lstm_rnn_toy" />
+      <item itemvalue="Python.lstm_rnn_txt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lstm_rnn_txt" />
         <item itemvalue="Python.lstm_rnn_toy" />
         <item itemvalue="Python.lstm_example" />
         <item itemvalue="Python.simplestRL.treasure_on_right" />
         <item itemvalue="Python.EvaluateExample" />
-        <item itemvalue="Python.2 Forward Propagate" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519389845768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lstm">
+      <created>1532695003360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532695003360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -315,13 +329,13 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="280" height="584" id="Documentation" order="12" sideWeight="0.5012658" side_tool="true" weight="0.32936507" />
+      <window_info anchor="right" x="0" y="0" width="280" height="584" id="Documentation" order="12" sideWeight="0.5012658" side_tool="true" visible="true" weight="0.32936507" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32970452" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32668713" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13650794" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1388889" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="4" />
@@ -329,7 +343,7 @@
       <window_info anchor="right" x="0" y="23" width="1304" height="745" id="SciView" order="6" sideWeight="0.49873418" type="WINDOWED" weight="0.32936507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39657855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39570552" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,7 +406,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="text sort" />
     <MESSAGE value="q learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="q learning" />
+    <MESSAGE value="lstm" />
+    <option name="LAST_COMMIT_MESSAGE" value="lstm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -437,6 +452,11 @@
           <line>59</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LSTM_model/lstm_rnn_txt.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -445,7 +465,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="137" />
+      <option name="time" value="147" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -463,8 +483,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/DecisionTreeForShanghaiIndex - Class Object.py" />
-    <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/DecisionTreeForShanghaiIndex-buy sell on same day.py" />
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/shanghaiIndex.csv" />
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/DecisionTreeForShanghaiIndex - buy end sell lowest next day.py" />
     <entry file="file://$PROJECT_DIR$/ShanghaiCompositeIndex/stockApi" />
@@ -510,16 +528,6 @@
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/colorama/ansitowin32.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/common.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/series.py" />
-    <entry file="file://$PROJECT_DIR$/TxtAnalysis/txt_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexes/base.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py" />
     <entry file="file://E:/FanProject/Python_StockPredict_Project/SinlgeScripts/RL.01.apply_to_stock_limit_target.case.py" />
@@ -604,27 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RNN workshop1/LSTM for txt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="144" column="61" selection-start-line="144" selection-start-column="61" selection-end-line="144" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RL SimplestExample/simplestRL.treasure_on_right.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="125" column="18" lean-forward="true" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM_model/lstm_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="205" column="39" selection-start-line="205" selection-start-column="39" selection-end-line="205" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,10 +626,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TxtAnalysis/txt_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM_model/lstm_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="205" column="39" selection-start-line="205" selection-start-column="39" selection-end-line="205" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Programs/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LSTM_model/lstm_rnn_toy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        <state relative-caret-position="-945">
+          <caret line="50" column="9" selection-start-line="50" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RNN workshop1/LSTM for txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="128" column="58" lean-forward="true" selection-start-line="128" selection-start-column="58" selection-end-line="128" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM_model/lstm_rnn_txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
